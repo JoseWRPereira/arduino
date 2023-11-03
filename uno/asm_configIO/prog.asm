@@ -22,5 +22,6 @@
 	OUT 	DDRB,R16
 				; Setando o bit no port
 	SBI	PORTB,PB5
+
 LOOP:				; Loop infinito
 	RJMP	LOOP
